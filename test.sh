@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=1 python tools/train_net.py --config-file configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml --eval-only --num-gpus 1 OUTPUT_DIR /opt/tiger/toutiao/labcv/dmx_loop/data/visiual/condinst/29 MODEL.WEIGHTS /opt/tiger/toutiao/labcv/dmx_loop/checkpoints/maskrcnn/model_final_a54504.pkl
